@@ -2,7 +2,7 @@ def quicksort(arr):
     if len(arr) <= 1:
         print(arr)
         return arr
-    pivot = sum(arr) // len(arr)  # Elige el valor medio del arreglo como pivote
+    pivot = sum(arr) // len(arr) 
     print(pivot)
     left = [x for x in arr if x < pivot]
     print(left)
@@ -11,7 +11,7 @@ def quicksort(arr):
     print(right)
     return quicksort(left) + middle + quicksort(right)
 
-# Ejemplo de uso
-my_list = [9,5,7]
-sorted_list = quicksort(my_list)
-print(sorted_list)
+
+vector = [9,5,7]
+organizado = quicksort(my_list)
+print(organizado)
